@@ -1,4 +1,4 @@
-update=Sat 18 Nov 2017 03:22:00 PM EST
+update=Mon 20 Nov 2017 02:15:14 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=sn65hvd256
+LibName34=samtec
