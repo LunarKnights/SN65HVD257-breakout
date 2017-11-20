@@ -282,4 +282,21 @@ Wire Wire Line
 Wire Wire Line
 	4930 4080 4800 4080
 Connection ~ 4800 4080
+$Comp
+L R_Small R?
+U 1 1 5A135070
+P 5060 3390
+F 0 "R?" H 5090 3410 50  0000 L CNN
+F 1 "DNC" H 5090 3350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5060 3390 50  0001 C CNN
+F 3 "" H 5060 3390 50  0001 C CNN
+	1    5060 3390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5060 3490 5060 3580
+Connection ~ 5060 3580
+Wire Wire Line
+	5060 3290 5060 3180
+Connection ~ 5060 3180
 $EndSCHEMATC

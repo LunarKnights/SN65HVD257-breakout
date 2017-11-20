@@ -1184,4 +1184,42 @@ Connection ~ 11730 9890
 Connection ~ 11730 9590
 Connection ~ 6710 9020
 Connection ~ 11730 8190
+$Comp
+L GND #PWR?
+U 1 1 5A140DD2
+P 17670 13270
+F 0 "#PWR?" H 17670 13020 50  0001 C CNN
+F 1 "GND" H 17670 13120 50  0000 C CNN
+F 2 "" H 17670 13270 50  0001 C CNN
+F 3 "" H 17670 13270 50  0001 C CNN
+	1    17670 13270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17670 10040 17670 13270
+Connection ~ 17670 13040
+Connection ~ 17670 12740
+Connection ~ 17670 12440
+Connection ~ 17670 12140
+Connection ~ 17670 11840
+Connection ~ 17670 11540
+Connection ~ 17670 11240
+Connection ~ 17670 10940
+Connection ~ 17670 10640
+Connection ~ 17670 10340
+Connection ~ 17670 10040
+Text HLabel 19210 580  2    60   Input ~ 0
+CAN0_TX
+Text HLabel 19210 710  2    60   Input ~ 0
+CAN0_RX
+Wire Wire Line
+	17820 2700 17820 710 
+Wire Wire Line
+	17820 710  19210 710 
+Connection ~ 17820 2700
+Wire Wire Line
+	19210 580  17750 580 
+Wire Wire Line
+	17750 580  17750 2600
+Connection ~ 17750 2600
 $EndSCHEMATC
