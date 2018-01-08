@@ -1,4 +1,4 @@
-update=Mon 20 Nov 2017 02:15:14 AM EST
+update=Mon 08 Jan 2018 02:09:58 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=sn65hvd256
 LibName34=samtec
+LibName35=mic5365-33yd5-tr

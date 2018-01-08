@@ -33,6 +33,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:sn65hvd256
 LIBS:samtec
+LIBS:mic5365-33yd5-tr
 LIBS:can-breakout-cache
 EELAYER 25 0
 EELAYER END
@@ -1222,4 +1223,16 @@ Wire Wire Line
 Wire Wire Line
 	17750 580  17750 2600
 Connection ~ 17750 2600
+Text HLabel 4840 850  2    60   Input ~ 0
+VSUPPLY
+Wire Wire Line
+	4840 850  3800 850 
+Wire Wire Line
+	3800 850  3800 5840
+Wire Wire Line
+	3800 5840 2620 5840
+Wire Wire Line
+	2620 5840 2620 710 
+Connection ~ 2620 710 
+Connection ~ 2620 810 
 $EndSCHEMATC
