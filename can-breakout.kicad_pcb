@@ -2,8 +2,8 @@
 
   (general
     (links 489)
-    (no_connects 2)
-    (area 56.424759 92.524999 143.575001 152.575001)
+    (no_connects 0)
+    (area 53.15 87.25 148.300001 157.227401)
     (thickness 1.6)
     (drawings 9)
     (tracks 685)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.635)
     (user_trace_width 1.016)
@@ -86,7 +86,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
